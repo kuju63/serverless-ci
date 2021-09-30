@@ -9,7 +9,7 @@ RUN curl -fsSL https://rpm.nodesource.com/setup_14.x | bash - && \
 
 ENV PATH=/usr/local/bin:$PATH \
     LANG=C.UTF-8 \
-    PYTHON_VERSION=3.8.11
+    PYTHON_VERSION=3.8.12
 
 RUN yum install gcc \
     zlib-devel \
